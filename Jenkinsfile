@@ -15,7 +15,8 @@ pipeline {
         }
         stage('ui') {
           steps {
-            sh 'test'
+            sh '''echo \'Running ui tests\'
+'''
           }
         }
       }
